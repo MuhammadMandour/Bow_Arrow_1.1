@@ -333,7 +333,7 @@ case 4:
         enemyList.clear();
         arrowList.clear();
         menu=5;
-        lvl++;
+        lvl=2;
 }       else if (arrowList.size() == 0 && enemyList.size() > 0 && arrowsNumber == 0) 
 {
         println("GAME OVER");

@@ -67,7 +67,14 @@ class Lvl_1
         gamestate = true;
         enemyList.clear();
         menu=3;
-        lvl++;
+        if (lvl==0)
+{
+        lvl=1;
+}
+        else
+{
+          lvl=2;
+}
 }       else if (arrowList.size() == 0 && enemyList.size() > 0 && arrowsNumber == 0) 
 {
         println("GAME OVER");
