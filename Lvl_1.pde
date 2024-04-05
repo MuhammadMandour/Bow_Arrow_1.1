@@ -72,9 +72,13 @@ class Lvl_1
 {
         lvl=1;
 }
-        else
+        else if(lvl==1)
 {
           lvl=2;
+}
+else 
+{
+lvl =2;
 }
 }       else if (arrowList.size() == 0 && enemyList.size() > 0 && arrowsNumber == 0) 
 {
@@ -85,6 +89,17 @@ class Lvl_1
         enemyList.clear();
         menu=3;
         Enter_1 = false;
+                if (lvl==0)
+{
+        lvl=0;
+}
+        else if(lvl==1)
+{
+          lvl=1;
+}
+else {
+lvl =2;
+}
 }
 }
 }

@@ -46,7 +46,7 @@
     //song.loop();
 
   button =new Button (385,80,250,80,"Play",0,111,154);
-  Continue =new Button (370,540,290,80,"CONTINUE",0,111,154);
+  Continue =new Button (0,540,290,80,"CONTINUE",0,111,154);
   lvl1 =new Button (380,245,200,80,"Play",0,111,154);
   lvl2 =new Button (380,540,220,70,"Play",0,111,154);
   Back =new Button (365,540,300,70,"BACK",0,111,154);
@@ -148,7 +148,7 @@ if (lvl==1)
    lvl1.update();
    lvl2.update();
 
-  if(lvl1.isClicked()&&!play)
+  if(lvl1.isClicked())
 {
     for (int i = 0; i < monsters.length; i++) 
 { // making array of monsters that have deffernce x coorrdinates ,dont ask me ho can i get this equation
