@@ -67,6 +67,7 @@ class Lvl_1
         gamestate = true;
         enemyList.clear();
         menu=3;
+        Enter_1 = false;
         if (lvl==0)
 {
         lvl=1;
@@ -83,6 +84,7 @@ class Lvl_1
         gamestate = false;
         enemyList.clear();
         menu=3;
+        Enter_1 = false;
 }
 }
 }

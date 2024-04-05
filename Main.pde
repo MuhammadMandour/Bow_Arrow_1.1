@@ -267,7 +267,7 @@ arrowsNumber = 20;
   break;
 case 4: 
 {
-    Enter_1=true;
+    Archer.setImage("shooterr.png");
     song.pause();
     int n = 0;
     Enter_1 = true;
@@ -333,6 +333,7 @@ case 4:
         enemyList.clear();
         arrowList.clear();
         menu=5;
+        Enter_1 = false;
         lvl=2;
 }       else if (arrowList.size() == 0 && enemyList.size() > 0 && arrowsNumber == 0) 
 {
@@ -343,6 +344,8 @@ case 4:
         enemyList.clear();
         arrowList.clear();
         menu=5;
+        Enter_1 = false;
+
 }
 }
 }
